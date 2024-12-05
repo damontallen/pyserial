@@ -11,6 +11,7 @@ from __future__ import absolute_import
 
 import sys
 import importlib
+from serial.tools.list_ports import main as list_ports
 
 from serial.serialutil import *
 #~ SerialBase, SerialException, to_bytes, iterbytes
